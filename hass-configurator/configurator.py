@@ -571,6 +571,7 @@ INDEX = Template(r"""<!DOCTYPE html>
                     <li><a class="waves-effect waves-light tooltipped files-collapse hide-on-small-only" data-activates="slide-out" data-position="bottom" data-delay="500" data-tooltip="Browse Filesystem" style="padding-left: 25px; padding-right: 25px;"><i class="material-icons">folder</i></a></li>
                     <li><a class="waves-effect waves-light files-collapse hide-on-med-and-up" data-activates="slide-out" style="padding-left: 25px; padding-right: 25px;"><i class="material-icons">folder</i></a></li>
                 </ul>
+		<span style="font-size: 20px; line-height: 3.4;">Text Editor</span>
                 <ul class="right">
                     <li><a class="waves-effect waves-light tooltipped hide-on-small-only markdirty hidesave" data-position="bottom" data-delay="500" data-tooltip="Save" onclick="save_check()"><i class="material-icons">save</i></a></li>
                     <li><a class="waves-effect waves-light tooltipped hide-on-small-only" data-position="bottom" data-delay="500" data-tooltip="Close" href="#modal_close"><i class="material-icons">close</i></a></li>
