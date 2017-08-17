@@ -6,7 +6,7 @@
   "description": "Portainer addon.",
   "url": "https://hub.docker.com/r/portainer/portainer/",
   "startup": "initialize",
-  "privileged": "SYS_ADMIN",
+  "privileged": ["SYS_ADMIN", "NET_ADMIN", "SYS_RAWIO"]
   "boot": "auto",
   "host_network": true,
   "webui": "http://[HOST]:[PORT:9000]/",
