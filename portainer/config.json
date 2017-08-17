@@ -9,7 +9,7 @@
   "privileged": "SYS_ADMIN",
   "boot": "auto",
   "host_network": true,
-  "webui": "http://[HOST]:[PORT:9000]/"
+  "webui": "http://[HOST]:[PORT:9000]/",
   "ports": {
     "9000/tcp": 9000
   },
