@@ -15,7 +15,7 @@
     "GF_PATHS_PLUGINS": "/data/plugins"
   },
   "arch": [
-    "amd64"
+    "armhf"
   ],
   "options": {
 
