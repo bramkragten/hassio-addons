@@ -1,0 +1,25 @@
+{
+  "name": "Portainer",
+  "version": "latest",
+  "slug": "portainer",
+  "image": "portainer/portainer",
+  "description": "Portainer addon. Image used is portainer official",
+  "url": "https://hub.docker.com/r/portainer/portainer/",
+  "startup": "before",
+  "boot": "auto",
+  "ports": {
+    "9000/tcp": 9000
+  },
+  "environment": {
+    "GF_PATHS_DATA": "/data",
+    "GF_PATHS_PLUGINS": "/data/plugins"
+  },
+  "arch": [
+    "amd64"
+  ],
+  "options": {
+
+  },
+  "schema": {
+  }
+}
